@@ -1,4 +1,14 @@
-/* Your Code Here */
+function createEmployeeRecord(employee){
+    let newEmployee = {
+        firstName: employee[0],
+        familyName: employee[1],
+        title: employee[2],
+        payPerHour: employee[3],
+        timeInEvents: [],
+        timeOutEvents: []
+    }
+    return newEmployee
+}
 
 /*
  We're giving you this function. Take a look at it, you might see some usage
